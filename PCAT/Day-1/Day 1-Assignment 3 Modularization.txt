@@ -1,0 +1,44 @@
+1. Factorial Function
+
+#pseudocode
+
+function factorial(n)
+    if n == 0
+        return 1
+    else
+        result = 1
+    for i from 1 to n
+        result = result * i
+        return result
+
+this function calculates the factorial of a number. if the value of n is 0 then it will return 1. otherwise it initializes result to 1 and multiplies it by i which is from 1 to n
+
+
+
+2. Fibonacci Function
+
+#pseudocode
+
+function fibonacci(n)
+if(n<=1)
+  return n
+else
+ a=0 and b=1
+ for i from 2 to n
+    result = a + b
+         a = b
+         b = result
+return result
+
+this function calculates the fibonacci series.if the value of n is 0 or 1 it will return n. otherwise initialise 2 variables a and b with values 0 and 1 respectively. for i from 2 to n calculate the result by adding the current values of a and b. then put the value in a is equal to b and b equals to result to maintain the series
+
+
+##Modularity:-Modularity involves breaking down your code into smaller, manageable and reusable modules.
+
+
+
+
+
+
+
+
