@@ -1,0 +1,9 @@
+start
+declare variable num and take its input 
+check num is odd or even
+if(num%2==0)
+  result=num*num;
+else
+  result=num*num*num;
+print result
+end
