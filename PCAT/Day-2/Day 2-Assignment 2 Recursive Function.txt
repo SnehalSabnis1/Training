@@ -1,0 +1,39 @@
+start
+take variable n till the series will be shown
+make function fib and pass n in it with a number receiving ans 
+print(number+" ")
+end
+
+function fib
+
+function fib_recursive(n)
+if(n == 0)
+  return 0
+else if(n == 1)
+  return 1
+else
+  fib(n-1)+fib(n-2)
+if end
+stop
+
+time complexity = o(2^n)
+space complexity = o(n)
+
+
+function fib_iterative(n)
+array fib[n]
+if (n <= 1)
+   return n
+else
+   fib[0] = 0
+   fib[1] = 1
+for i from 2 to n
+   fib[i] = fib[i-1] + fib[i-2]
+     return fib[n]
+stop
+
+time complexity = o(n)
+space complexity =o(1)
+
+The recursive approach has exponential time complexity o(2^n) but linear space complexity o(n), while the iterative approach has linear time complexity o(n) and constant space complexity o(1). according to the above approaches if we have smaller values then the recursive approach is good. but we have larger values the iterative approach is better than the recursive approach. the recursive is very easy
+to understand compared to the iterative approach.
