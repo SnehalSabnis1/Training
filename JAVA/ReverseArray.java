@@ -1,4 +1,4 @@
-package com;
+package com.assignments;
 
 public class ReverseArray {
 
